@@ -20,7 +20,7 @@ The `token` and `sig` values can be put straight into the next API call.
 **Retrieve M3U8 file containing the qualities and respective links**  
 [https://usher.twitch.tv/vod/{vodid}?player=twitchweb&nauth={token}&nauthsig={sig}&$allow_audio_only=true&allow_source=true&type=any&p={random}](https://usher.twitch.tv/vod/{vodid}?player=twitchweb&nauth={token}&nauthsig={sig}&$allow_audio_only=true&allow_source=true&type=any&p={random})
 
-Where the `{vodId}`, `{sig}` and `{token}` are the vod id and the exact values you obtained from the previous API call.
+Where the `{vodId}`, `{sig}` and `{token}` are the vod id and the exact values you obtained from the previous API call. {random} is random number from 1 to 99999
 
 Result
 A file looking something like
